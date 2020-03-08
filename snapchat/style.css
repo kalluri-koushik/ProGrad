@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+}
+
+.nav {
+    background-color: white;
+    margin-left: 18%;
+    margin-right: 32%;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 13px;
+    padding: 7px;
+    font-weight: 1000;
+}
+
+.details {
+    column-count: 4;
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+
+
+.nav img {
+    width: 25px;
+    outline-color: black;
+    background-color: white;
+}
+
+.home {
+
+
+    background-color: yellow;
+
+
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 45px;
+
+}
+
+
+.images {
+    display: flex;
+    margin-left: 10%;
+}
+
+.home img {
+
+    width: 400px;
+    align-content: space-between;
+}
+
+
+h2,
+h4 {
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    font-style: initial;
+    margin-left: 45%;
+}
+
+
+.details {
+    color: rgb(163, 157, 157);
+    text-decoration: none;
+    height: 153px;
+}
+
+.main-nav,
+h3 {
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+}
+
+h4 {
+    font-weight: 10;
+    color: black;
+    text-decoration: none;
+}
+
+.data {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1%;
+    flex-direction: row;
+}
+
+.data div {
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.data li {
+    align-content: space-between;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: rgb(212, 208, 208);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+footer>ul {
+    margin-left: 18%;
+    margin-right: 32%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 1000;
+}
+
+footer ul li {
+    margin: 0 20px;
+}
+
+#lan {
+    font-size: 1m;
+    font-weight: 200;
+    text-decoration: none;
+    border-width: medium;
+    background-origin: border-box;
+    color: rgb(182, 179, 179);
+}
