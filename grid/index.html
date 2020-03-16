@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplegrid</title>
+</head>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr 2fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+        justify-items: stretch;
+        align-items: stretch;
+
+
+    }
+
+    .grid-container div {
+        background-color: grey;
+    }
+
+    .grid-container>div:nth-child(even) {
+        background-color: lightgrey;
+    }
+
+    #div1 {
+        justify-self: center;
+        align-self: center;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div id="div1">Lorem amet.1</div>
+        <div>Lorem amet.2</div>
+        <div>Lorem amet.3</div>
+        <div>Lorem amet.4</div>
+        <div>Lorem amet.5</div>
+    </div>
+</body>
+
+</html>
