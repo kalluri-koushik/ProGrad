@@ -1,0 +1,141 @@
+/* Type your code here */
+
+/* change the font family and spacing as per your project font */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+.footer {
+  background-image: url(./assets/background-image1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  /* margin-left: 50px; */
+}
+
+#logo {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 900;
+  text-shadow: rgb(75, 72, 72);
+  letter-spacing: 1px;
+  text-shadow: 0px 2px lightgrey;
+  text-align: start;
+  background-color: none;
+}
+
+h3 {
+  color: grey;
+  font-size: small;
+  text-align: start;
+  background-color: none;
+}
+
+#Series {
+  background-color: none;
+  padding-bottom: 20px;
+  margin-left: 80px;
+  /* margin-top: 80px; */
+}
+
+.table {
+  display: grid;
+  background-color: white;
+  width: 69.5%;
+  margin-left: 80px;
+}
+
+.innings {
+  display: flex;
+  background-color: #f05136;
+  align-content: flex-start;
+  padding: 9px;
+  padding-left: 10px;
+  color: white;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  list-style: none;
+  padding: 9px;
+  font-weight: 600;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.rows,
+.played {
+  border-bottom: 1px solid lightgrey;
+  top: 69.5%;
+}
+
+.played {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  width: 100%;
+  padding: 9px;
+  padding-left: 10px;
+  font-weight: 600;
+  text-align: start;
+}
+
+#wickets-taken {
+  color: grey;
+  font-weight: 500;
+}
+.stats {
+  display: flex;
+  list-style: none;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 1.5fr;
+}
+
+#Extras,
+#Total,
+#Not-bat {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: start;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: smaller;
+  border-bottom: lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 9px;
+  padding-left: 10px;
+}
+
+#Not-bat {
+  grid-template-columns: 1fr 2fr;
+  border-bottom: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  /* position: relative; */
+  padding-top: 20px;
+  top: 30px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+}
